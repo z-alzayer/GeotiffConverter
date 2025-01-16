@@ -1,6 +1,6 @@
 # GeoTIFF XML Header Cleaner
 
-A simple Python utility that converts ESA SNAP-generated GeoTIFFs to standard GeoTIFF format by removing the special XML header metadata.
+A simple Python utility that converts ESA SNAP-generated GeoTIFFs to standard GeoTIFF format by removing the special XML header metadata and rewriting them in the description instead as expected by rasterio or gdal.
 
 ## Problem
 ESA SNAP software outputs GeoTIFF files with additional XML header metadata that can cause compatibility issues with some GIS software. This package provides a simple solution to convert these files into standard GeoTIFF format.
