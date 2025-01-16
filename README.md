@@ -24,11 +24,11 @@ ESA SNAP software outputs GeoTIFF files with additional XML header metadata that
 - If you have rasterio working it should just work
 
 ## Usage 
-
+```
 from GeotiffConverter import Converter
 
 Converter.write_band_descriptions(img_path, output_path)
-
+```
 ## Note
 
 I've only tested this for Sentinel-2 Geotiffs from SNAP, as you'll see from the code it will only output whatever the original Geotiff had there are currently no plans to extend/customise this
