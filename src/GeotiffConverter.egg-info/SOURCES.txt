@@ -1,8 +1,0 @@
-README.md
-setup.py
-src/GeotiffConverter/Converter.py
-src/GeotiffConverter/__init__.py
-src/GeotiffConverter.egg-info/PKG-INFO
-src/GeotiffConverter.egg-info/SOURCES.txt
-src/GeotiffConverter.egg-info/dependency_links.txt
-src/GeotiffConverter.egg-info/top_level.txt
